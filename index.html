@@ -20,6 +20,12 @@
 
             
         }
+        #main-div {
+margin-top: 5rem;
+margin-left: 10%;
+margin-right: 10%;
+        }
+       
         nav {
             direction: rtl;
             background-color: #f0edeb;
@@ -30,10 +36,10 @@
             margin-right: 0;
             margin-left: auto;
             padding: 10px;
-            width: 100%;
+            width: 80%;
             height: 3.8rem;
             overflow: scroll;
-            position: fixed;
+            /* position: fixed; */
 
         }
 
@@ -52,45 +58,105 @@ h2 {
     float: left;
     margin-left: 0.4rem;
 }
-
+#main-potrat {
+    position: relative;
+    margin-top: 10rem;
+    margin-left: 5rem;
+}
 img {
     margin: 0;
     padding: 0;
     display: block;
     /* direction: ltr; */
 float: left;
-border-radius: 50px;
+border-radius: 50%;
 }
 a {
     color: black;
 }
-
+p {
+    /* margin: 100px; */
+    margin-top: 100px;
+}
 #main-body {
     margin-top: 3.8rem;;
 }
+#main-first-text {
+            margin-top: 3.8rem;
+            /* border: black 3px solid; */
+            font-size: 3rem;
+        }
+        #find-out-p {
+            margin-bottom: 100px;
+        }
+        .circle {
+            
+            width: 8rem;
+            height: 8rem;
+            margin: 10px;
+            border-radius: 50%;
+            font-size: 1.3rem;
+            text-align: center;
+        }
+        .circle a {
+            position:static;
+            margin-bottom: 500px;
+            /* border: black 3px solid; */
+        }
+        .empty {
+            /* border: red 3px solid; */
+            width: 100%;
+            height: 3.5rem;
+        }
+        #circle-1 {
+            background-color: red;
+        }
+        #circle-2 {
+            background-color: green;
+        }
+        #circle-3 {
+            background-color: greenyellow;
+        }
     </style>
   </head>
   <body>
+      <div id="main-div">
 <nav>
   <div>
-        <img src="img/potrat.jpg" width="60" height="60">
+       
        <h2>tuvia kahana</h2> 
     </div>
+    <br>
     <ul>
         <li>
-           <a href="#"> My Websites</a> 
+           <a href="#">   My Websites</a> 
         </li>
         <li>
-            <a href="#">Abut Me</a> 
+            <a href="#">  Abut Me</a> 
         </li> 
     
     </ul>
 </nav>
-<div id="main-body">
-    <p>
-    <h1>Hello, to theworld!</h1> 
-    </p>
+<div id="main-potrat">
+    <img src="img/potrat.jpg" width="350" height="350">
 </div>
+      <div id="main-first-text">
+         <p id="find-out-p">
+            Find Out Abaut Me
+         </p>
+      <div id="circle-1" class="circle">
+        <div class="empty"></div>
+          <a>Abut Me</a>
+      </div>
+      <div id="circle-2" class="circle">
+        <div class="empty"></div>
 
+    </div>
+    <div id="circle-3" class="circle">
+    <div class="empty"></div>
+        <a>My Websites</a>
+    </div>
+      </div>
+</div>
   </body>
 </html>
